@@ -9,4 +9,15 @@ some of the libraries installed in order to run the app are:
 -altair
 
 here is the link to the render web application "https://streamlitwebapp.onrender.com/"
+these are the steps to follow if you would like to run the app locally
+1.clone this repository on your local machine
+ex: git clone https://github.com/ouryj/streamlitwebapp
+2.create a virtual environemnt and activate it
+ex: python -m venv venv
+source venv/bin/activate
+3. install the dependencies
+ex:pip install -r requirements.txt
+4. run the streamlit app
+ex: streamlit run app.py
+5. open your browser and visit your localhost
 
